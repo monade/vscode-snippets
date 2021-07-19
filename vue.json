@@ -1,0 +1,23 @@
+{
+	"Vue Typescript component": {
+		"prefix": "component",
+		"body": [
+			"<template>",
+			"  <div class=\"$1\"></div>",
+			"</template>",
+			"",
+			"<script lang=\"ts\">",
+			"import { Vue, Component, Prop } from \"vue-property-decorator\";",
+			"",
+			"@Component",
+			"export default class $1 extends Vue {",
+			"  @Prop({ required: true }) readonly value!: string",
+			"}",
+			"</script>",
+			"",
+			"<style scoped lang=\"scss\">",
+			"</style>",
+		],
+		"description": "Create a new vue typescript component"
+	}
+}
